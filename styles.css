@@ -1,5 +1,10 @@
 .contenedor {
-	background-size: 15px;
+	width: 500px;
+	display: flex;
+	border: 1px solid #000;
+	align-items: end;
+	flex-direction: column;
+	margin: auto;
 }
 
 .verde {
