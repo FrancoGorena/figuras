@@ -1,7 +1,15 @@
 .contenedor,.contenedor2,.contenedor3 {
 	display: flex;
 	border: 1px solid #000;
-	
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.centrar-contenido {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 .contenedor {
 	width: 500px;
@@ -13,25 +21,31 @@
 	width: 100%;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 }
-
+.contenedor3 {
+	width: 450px;
+	height: 450px;
+	margin: auto;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
 
 .verde {
 	background-color: #008000;
 	padding: 25px;
 	height: 100px;
 	width: 100px;
-	text-align: center;
-
+	
+	
 }
 
 .azul {
 	background-color: #0000ff;
 	padding: 25px;
 	height: 100px;
-	width: 100px;
-	text-align: center;
-	
+	width: 100px;	
 }
 
 .rojo {
@@ -39,6 +53,5 @@
 	padding: 25px;
 	height: 100px;
 	width: 100px;
-	text-align: center;
-
+	
 }
